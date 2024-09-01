@@ -219,9 +219,8 @@ your use of `split()` in your prior solution.
 
 This part will early you _up to_ an extra +2 BONUS points.
 
-1. [**+1 point**] Remove all punctuation from `passage`.
-2. [**+1 point**] Print all words that end in `"s"`.  Provide the count of words
-   ending in `"s"`. 
+1. [**+1 point**] Remove all _ending_and _beginning_ punctuation from `passage`.  Beginning and ending punctuation is defined as any symbol at the _beginning or end of a word_ in the set of symbols: ```!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~```
+2. [**+1 point**] Print and provide the count of all words that end in `"s"`.   
 
 
 
