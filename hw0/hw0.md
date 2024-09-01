@@ -151,7 +151,7 @@ Strings have a lot of other operations on them that make them exceedingly
 useful for text processing.  In fact, Python is exceptionally good at
 processing text, as you will see.
 
-First things first, please go to the documentation on Python strings, also known as `str` or "Text Sequence Type":
+First things first, please go to the documentation on Python strings, also known as **`str`** or "Text Sequence Type":
 
 - [https://docs.python.org/3/library/stdtypes.html#textseq](https://docs.python.org/3/library/stdtypes.html#textseq)
 
@@ -175,13 +175,14 @@ You will be using this short **AI-generated writeup** about record players:
 Use the passage provided and answer the questions.  **Provide your answer in a Jupyter Notebook.**
 
 1. Set a variable called `passage` with the string provided 
-   into a multi-line string using `"""`.  Make sure you preserve
-   the spaces between paragraphs, which are `\n\n` (two newlines).
+   into a multi-line string using `"""` which we talked about in lecture.  
+   Make sure you preserve
+   the spaces between paragraphs, which are `"\n\n"` (two newlines).
 2. Use `splitlines()` to determine how many paragraphs are in the string.  
    Recall, `splitlines()` returns a _sequence_ (i.e. a list sequence), so counting the 
    paragraphs is easier with `len()`.
 3. Use `lower()` to produce the lowercase version of the whole string.
-4. Get the first (index 0) paragraph, and return the number of words in the paragraph.  **NOTE:** you do can include punctuation as part of the word.  You will make use of your solution in #2 and `split()`.
+4. Get the first (index 0) paragraph, and return the number of words in the paragraph.  **NOTE:** you can include punctuation as part of the word.  You will make use of your solution in #2 and `split()`.
 
 
 **&#167; Task:**  **Advanced String functions.**
@@ -189,11 +190,11 @@ Use the passage provided and answer the questions.  **Provide your answer in a J
 Now that you have `passage` in a variable, there are a few
 more String operations we want to try to familiarize ourselves with.
 
-1. Use `replace()` to replace all instances of the word `"the"` with `###`.  
+1. Use `replace()` to replace all instances of the word `" the "` with ` ### `.  
    You would be advised to use `lower()` first so that all of 
-   your words are _normalized_.
-2. How many `"the"` words are in the passage?
-3. How many times was the word `"music"` used in the passage?
+   your words are _normalized_.  Note also the spaces around the word.
+2. How many `" the "` words are in the passage?
+3. How many times was the word `" music "` used in the passage?
 
 
 **&#167; Task:**  **Sequence iteration.**
@@ -202,9 +203,10 @@ Now we will put looping into our work and ask more complex
 questions of the text.
 
 To produce a list sequence of all the words in `passage` then
-you will learn that `split()` will 
+you will learn that `split()` will be very valuable.  Remember 
+your use of `split()` in your prior solution. 
 
-1. Learn what `passage.split()` does and write a sentence 
+1. Study what `passage.split()` does and write a sentence 
    fragment explaining what it does.
 2. Use a `for` loop with `split()` to find all words that end in `"ing"`. 
    Provide the count of such words.  **Note**: you do not have to
@@ -215,10 +217,10 @@ you will learn that `split()` will
 
 **&#167; Task:**  **BONUS**
 
-This part will early you an extra +2 BONUS points.
+This part will early you _up to_ an extra +2 BONUS points.
 
-1. Remove all punctuation from `passage`.
-2. Print all words that end in `"s"`.  Provide the count of words
+1. [**+1 point**] Remove all punctuation from `passage`.
+2. [**+1 point**] Print all words that end in `"s"`.  Provide the count of words
    ending in `"s"`. 
 
 
