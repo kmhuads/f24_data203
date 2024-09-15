@@ -25,8 +25,8 @@ DATA203 Foundational Python (Prof. Maull) / Fall 2024 / HW1
 ## WHAT TO TURN IN
 You are being encouraged to turn the assignment in using the provided
 Jupyter Notebook.  To do so, make a directory in your Lab environment called
-`homework/hw0`.   Put all of your files in that directory.  Then zip or tar that directory,
-rename it with your name as the first part of the filename (e.g. `maull_hw0_files.zip`, `maull_hw0_files.tar.gz`), then
+`homework/hw1`.   Put all of your files in that directory.  Then zip or tar that directory,
+rename it with your name as the first part of the filename (e.g. `maull_hw1_files.zip`, `maull_hw1_files.tar.gz`), then
 download it to your local machine, then upload the `.zip` to Canvas.
 
 If you do not know how to do this, please ask, or visit one of the many tutorials out there
@@ -59,7 +59,7 @@ for full documentation on _shell_ ... they are **very** useful!
    the way Linux works.  In this part, you will understand
    folders, files and making revisions to a file.  These files
    will be visible within Jupyter, which makes moving from
-   one platform to another seemless.  We will create a folder, file
+   one platform to another seamless.  We will create a folder, file
    and make edits.             
    
    - type `!mkdir your_folder_name` to create a folder in filesystem _in the current folder where you are_
@@ -311,7 +311,7 @@ an order with random items from the menu with:
         menu = make_menu()
         make_order(menu)
       ```
-      Minmally, you output would look like this:
+      Minimally, you output would look like this:
       ```python
         ['Jamaican Patties', 'Jerk Chicken Wings', 'Brown Stew Fish with Rice and Peas', 
           'Brown Stew Fish with Rice and Peas', 'Jerk Chicken', 
