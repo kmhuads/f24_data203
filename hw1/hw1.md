@@ -200,31 +200,32 @@ operations.
 
 1. You will need to take this Dictionary:
    ```python
-      order001 = 
+      order001 = \
+          {
+          'order': {
+              'appetizers': 
+              {
+              'Callaloo Fritters': 2, 
+              'Conch Fritters': 2, 
+              'Jerk Chicken Wings': 2,
+              'Ackee and Saltfish Cakes': 1, 
 
-      {
-      'order':
-          'appetizers': 
-          {
-          'Guava Duff': 3, 
-          'Callaloo Fritters': 2, 
-          'Conch Fritters': 2, 
-          'Jerk Chicken Wings': 2,
+              },
+              'deserts':
+              { 
+              'Guava Duff': 3, 
+              'Mango Sorbet': 2, 
+              'Sweet Potato Pudding Cake': 1, 
+              'Coconut Rice Pudding': 1,
+              },
+              'entrees': 
+              {
+              'Curry Goat': 1, 
+              'Brown Stew Fish with Rice and Peas': 1, 
+              'Jerk Chicken': 1   
+              }
           }
-          'deserts':
-          { 
-          'Mango Sorbet': 2, 
-          'Ackee and Saltfish Cakes': 1, 
-          'Sweet Potato Pudding Cake': 1, 
-          'Coconut Rice Pudding': 1,
           }
-          'entrees': 
-          {
-          'Curry Goat': 1, 
-          'Brown Stew Fish with Rice and Peas': 1, 
-          'Jerk Chicken': 1   
-          }
-      }
    ```
    And produce a function that given the Dictionary
    will use the menu from `make_menu()` and
