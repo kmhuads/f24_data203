@@ -231,9 +231,9 @@ understand.
       if not min(a_split) < b[0] and not max(a_split) > b[1]:
           return
       else:
-        if item[2] > sum(item[0:2]) and item[2] > sum(item[-2:]):
+        if a_split[2] > sum(a_split[0:2]) and a_split[2] > sum(a_split[-2:]):
           return True
-        elif item[2] > min(item[0:2]) and item[2] < max(item[-2:]):
+        elif a_split[2] > min(a_split[0:2]) and a_split[2] < max(a_split[-2:]):
           return True
         else:
           return False
